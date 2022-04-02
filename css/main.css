@@ -1,24 +1,34 @@
-.homepage{
-    width:100%;
-    height:100vh;
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.5)),url('../images/giftheader3.jpg');
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+
+
     .homepage-container{
     width:100%;
-    height:100vh;
+    height:100%;
     box-shadow: 10px 0px 15px rgba(0,0,0, 0.6), -10px 0px 15px  rgba(0, 0, 0,  0.6);
     
     }
     .navbar-nav{
          margin-left: auto;
+         background-color: black;
+
+    }
+    .navbar .navbar-brand {
+        font-family: 'Kaushan Script', cursive !important;
+        color: gold;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
     }
     
     .navbar{
         background-color:rgba(216, 199, 42, 0.1);
         box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+        background-color: black;
+
     }
     .dropdown-menu{
         color: antiquewhite;
@@ -39,6 +49,7 @@
     .navbar-nav .nav-item .nav-link{
         color: white;
         letter-spacing: 1px;
+        padding-left: 1.5rem;
     }
     .navbar-nav .nav-item .nav-link:hover{
         color: aqua;
@@ -49,46 +60,70 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    
-    
-    
+    height: 100vh; 
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.5)),url('../images/giftheader3.jpg');
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
     }
     .homepage-header h1{
         color: white;
         letter-spacing: 2px;
         text-shadow: 2px 2px 3px rgb(203, 206, 11);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    .homepage-header h3{
-    
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 3%;
-        color: azure;
-        text-shadow: 2px 2px 4px rgb(37, 37, 3);
-        letter-spacing: 2px;
+        font-size: 76px;
+        font-family: 'Kaushan Script', cursive;
+        text-align: center;
     }
     .homepage-header button{
-    
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 2%;
-        color: rgb(20, 8, 92);
-        letter-spacing: 1px;
-        border-radius: 20px;
-        padding: 1%;
-        background-color: rgb(213, 219, 119);
+        border-radius: 15px;
+   background-color:  #b3ffff !important;
+    } 
+    /* .homepage-header button:hover{
+        background-color;
+    } */
+    #about-us{
+        width:100%;
+        height:100vh;
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.5)),url('../images/gifts6.jpg');
+        background-position:bottom; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        color: white;
     }
-    .homepage-header button:hover{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-top: 5%;
-        color: rgb(20, 8, 92);
-        letter-spacing: 2px;
-        border-radius: 20px;
-        padding: 1%;
-        background-color: goldenrod
+    #about-us h1{
+        text-align: center;
+        padding-top: 90px;
+color: goldenrod;
+        font-family: 'Kaushan Script', cursive;
+        letter-spacing: 3px;
     }
-    
+    #about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(81, 202, 186, 0.1),rgba(81, 202, 186, 0.1)) ;
+        box-shadow: 0px 2px 20px rgba(206, 203, 177, 0.6);
+    }
+#about-img img{
+    width:90%;
+    height:90%;
+    opacity:0.6;
+   
+    }
+    #about-intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 2rem;
+        align-items: center;
+        /* padding: 2rem; */
+        background: linear-gradient(rgba(0,0,0, 0.4)) ;
+        box-shadow: 0px 2px 20px rgba(206, 203, 177, 0.6);
+        
+    }
+    #about-row{
+        margin-top: 8vh;
+    }
     
     
     

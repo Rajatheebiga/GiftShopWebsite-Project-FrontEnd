@@ -1,0 +1,1 @@
+In this project I am going to design the gift shop website where user can buy gifts online and in person.
