@@ -6,12 +6,12 @@ font-family: 'Roboto Slab', serif; */
 
     .navbar-nav{
          margin-left: auto;
-         background-color: black;
+         /* background-color: black; */
 
     }
     .navbar .navbar-brand {
         font-family: 'Kaushan Script', cursive !important;
-        color: gold;
+        color: rgb(12, 11, 0);
         letter-spacing: 2px;
         font-size: 1.5rem;
     }
@@ -19,32 +19,31 @@ font-family: 'Roboto Slab', serif; */
     .navbar{
         /* background-color:rgba(216, 199, 42, 0.1); */
         /* box-shadow: 0px 2px 20px rgba(225, 58, 12, 0.6); */
-        background-color: black;
-
+         /* background-color:  #204060; */
     }
     .dropdown-menu{
-        color: antiquewhite;
+        color: black;
         background-color:transparent
     }
     .dropdown-menu a{
-        color: white;
+        color: black;
         letter-spacing: 1px;
         background-color:transparent;
         
     }
     .dropdown-menu a:hover{
-        color: aquamarine;
+        color: black;
         background-color:transparent;
         border-bottom: 1px solid aquamarine;
     }
     
     .navbar-nav .nav-item .nav-link{
-        color: white;
+        color: black;
         letter-spacing: 1px;
         padding-left: 1.5rem;
     }
     .navbar-nav .nav-item .nav-link:hover{
-        color: aqua;
+        color: black;
         border-bottom: 1px solid aquamarine;
     } 
        
@@ -56,7 +55,7 @@ font-family: 'Roboto Slab', serif; */
     }
 
 #products{
-    background: #e5e5e5;
+    background: #e5e5e5; 
 }
 #products h1{
     font-size: 50px;
