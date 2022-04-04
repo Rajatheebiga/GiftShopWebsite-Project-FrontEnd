@@ -1,131 +1,212 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap");
 /* font-family: 'Kaushan Script', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
-
-.homepage{
-    margin-top: 10vh; 
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.7)),url('../images/giftheader3.jpg'); 
-    width:100%;
-    height:90vh;
-    display: flex;
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
-
+#home-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/giftheader3.jpg");
 }
- .navbar-nav{
-         margin-left: auto;
-    }
-    .navbar .navbar-brand {
-        font-family: 'Kaushan Script', cursive !important;
-        color: gold;
-        letter-spacing: 2px;
-        font-size: 1.5rem;
-    }
-    .navbar{
-        background-color:rgba(216, 199, 42, 0.1);
-        box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
-        height: 10vh;
-        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.7)),url('../images/giftheader3.jpg');
-    }
-    .dropdown-menu{
-        color: antiquewhite;
-        background-color:transparent
-    }
-    .dropdown-menu a{
-        color: white;
-        letter-spacing: 1px;
-        background-color:transparent;
-        
-    }
-    .dropdown-menu a:hover{
-        color: white;
-        background-color:transparent;
-        /* border-bottom: 1px solid aquamarine; */
-    }
-    
-    .navbar-nav .nav-item .nav-link{
-        color: aquamarine;
-        letter-spacing: 1px;
-        padding-left: 1.5rem;
-        font-size: 1rem;
-    }
-    .navbar-nav .nav-item .nav-link:hover{
-        color: white;
-        /* border-bottom: 1px solid aquamarine; */
-    } 
-
-.main-intro{
-    /* background-color: aquamarine; */
-    /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.7)),url('../images/giftheader3.jpg');  */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+.homepage {
+  margin-top: 8vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("../images/giftheader3.jpg");
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.right-col{
-    /* background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0, 0.2));  */
-    /* background-color: antiquewhite; */
-    /* background-color: greenyellow; */
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar .navbar-brand {
+  font-family: "Kaushan Script", cursive !important;
+  color: gold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.navbar {
+  background-color: rgba(216, 199, 42, 0.1);
+  box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+  height: 8vh;
+  color: gold;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../images/giftheader3.jpg");
+}
+.dropdown-menu {
+  color: antiquewhite;
+  background-color: transparent;
+}
+.dropdown-menu a {
+  color: white;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+.dropdown-menu a:hover {
+  color: white;
+  background-color: transparent;
+  /* border-bottom: 1px solid aquamarine; */
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: aquamarine;
+  letter-spacing: 1px;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: white;
+  /* border-bottom: 1px solid aquamarine; */
+}
+
+.main-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.right-col {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.gift-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px rgba(21, 7, 40, 0.3), inset 4px 4px 5px white;
+  margin: 4%;
+}
+.gift-img:hover {
+  transform: scale(1.2);
+}
+
+.gift-img-1 {
+  background: url("../images/giftbox2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift-img-2 {
+  background: url("../images/main.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift-img-3 {
+  background: url("../images/main2.jpg");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift-img-4 {
+  background: url("../images/gift7.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-intro h1 {
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 3px rgb(203, 206, 11);
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 5%;
+}
+
+.btn {
+  margin: 3%;
+  background-color: #33334d;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.footer-info {
+    width: 100%;
+    height: 7vh;
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(6, 4, 0);
+  
   
 }
-.gift-img{
-       height:200px;
-    width:200px;
-    border-radius:30px;
-    box-shadow: 5px 2px 2px rgba(21, 7, 40, 0.3),
-    inset 4px 4px 10px white;
-    margin: 4%;
- } 
-
- .gift-img-1{
-    background:url('../images/giftbox2.jpg');
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
- } 
- .gift-img-2{
-    background:url('../images/gifts6.jpg');
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
- } 
- .gift-img-3{
-    background:url('../images/gifts6.jpg');
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
- }  
- .gift-img-4{
-    background:url('../images/gifts6.jpg');
-    background-position:center; 
-    background-size: cover; 
-    background-repeat: no-repeat;
-
- } 
-
-.main-intro h1{
-    color: white;
-    letter-spacing: 3px;
-    text-shadow: 2px 2px 3px rgb(203, 206, 11);
-    font-size: 60px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 5%;
+.footer-bottom {
+  color: white;
+  font-size: 0.8rem;
+  /* justify-content: center; */
 }
 
-.btn{
-    margin:3%;
-    background-color:  #33334d;
-    width:150px;
-    border-radius: 20px;
+
+.social-icons ul {
+    /* padding-top: 20px; */
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #33334d; */
+}
+.social-icons ul li .fa {
+  color: white;
+  padding-right: 28px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    .main-intro h1 {
+      font-size: 2rem;
+    }
+    .gift-img-2 {
+      display: none;
+    }
+    .gift-img-3 {
+      display: none;
+    }
+    .gift-img-4 {
+      display: none;
+    }
+    .right-col {
+      align-content: flex-start;
+    }
+  }
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main-intro h1 {
+        font-size: 2.5rem;
+      }
+      .gift-img-3 {
+        display: none;
+      }
+      .gift-img-4 {
+        display: none;
+      }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .main-intro h1 {
+        font-size: 3.5rem;
+      }
+      .gift-img-3 {
+        display: none;
+      }
+      .gift-img-4 {
+        display: none;
+      }
+}
+@media (min-width: 992px) {
+    .main-intro h1 {
+        font-size: 4rem;
+      }
 }

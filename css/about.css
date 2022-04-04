@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+/* #home-body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0, 0.6)),url('../images/giftheader3.jpg'); 
+    /* padding: 0;
+    margin: 0; */
+/* } */
+/* .homepage{
+    margin-top: 10vh; 
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0, 0.6)),url('../images/giftheader3.jpg'); 
+    width:100%;
+    height:90vh;
+    display: flex;
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}  */
+ .navbar-nav{
+         margin-left: auto;
+    }
+    .navbar .navbar-brand {
+        font-family: 'Kaushan Script', cursive !important;
+        color: gold;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+    }
+    .navbar{
+        background-color:rgba(216, 199, 42, 0.1);
+        box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+        height: 10vh;
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.7)),url('../images/giftheader3.jpg');
+    }
+    .dropdown-menu{
+        color: antiquewhite;
+        background-color:transparent
+    }
+    .dropdown-menu a{
+        color: white;
+        letter-spacing: 1px;
+        background-color:transparent;
+        
+    }
+    .dropdown-menu a:hover{
+        color: white;
+        background-color:transparent;
+        /* border-bottom: 1px solid aquamarine; */
+    }
+    
+    .navbar-nav .nav-item .nav-link{
+        color: aquamarine;
+        letter-spacing: 1px;
+        padding-left: 1.5rem;
+        font-size: 1rem;
+    }
+    .navbar-nav .nav-item .nav-link:hover{
+        color: white;
+        /* border-bottom: 1px solid aquamarine; */
+    } 
+
+.btn{
+    margin:3%;
+    background-color:  #33334d;
+    width:150px;
+    border-radius: 20px;
+}
+#about-us{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0, 0.5)),url('../images/gifts6.jpg');
+    background-position:bottom; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: white;
+}
+#about-us h1{
+    text-align: center;
+    padding-top: 90px;
+color: goldenrod;
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 3px;
+}
+#about-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(81, 202, 186, 0.1),rgba(81, 202, 186, 0.1)) ;
+    box-shadow: 0px 2px 20px rgba(206, 203, 177, 0.6);
+}
+#about-img img{
+width:90%;
+height:90%;
+opacity:0.6;
+
+}
+#about-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+    align-items: center;
+    /* padding: 2rem; */
+    background: linear-gradient(rgba(0,0,0, 0.4)) ;
+    box-shadow: 0px 2px 20px rgba(206, 203, 177, 0.6);
+    
+}
+#about-row{
+    margin-top: 8vh;
+}
