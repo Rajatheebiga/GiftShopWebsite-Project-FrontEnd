@@ -1,67 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans&family=Poppins:wght@300&family=Roboto+Slab&display=swap");
 /* font-family: 'Kaushan Script', cursive;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
-    .navbar-nav{
-         margin-left: auto;
-         /* background-color: black; */
-
-    }
-    .navbar .navbar-brand {
-        font-family: 'Kaushan Script', cursive !important;
-        color: rgb(12, 11, 0);
-        letter-spacing: 2px;
-        font-size: 1.5rem;
-    }
-    
-    .navbar{
-        /* background-color:rgba(216, 199, 42, 0.1); */
-        /* box-shadow: 0px 2px 20px rgba(225, 58, 12, 0.6); */
-         /* background-color:  #204060; */
-    }
-    .dropdown-menu{
-        color: black;
-        background-color:transparent
-    }
-    .dropdown-menu a{
-        color: black;
-        letter-spacing: 1px;
-        background-color:transparent;
-        
-    }
-    .dropdown-menu a:hover{
-        color: black;
-        background-color:transparent;
-        border-bottom: 1px solid aquamarine;
-    }
-    
-    .navbar-nav .nav-item .nav-link{
-        color: black;
-        letter-spacing: 1px;
-        padding-left: 1.5rem;
-    }
-    .navbar-nav .nav-item .nav-link:hover{
-        color: black;
-        border-bottom: 1px solid aquamarine;
-    } 
-       
-    #gift-row{
-        display: flex;
-  flex-wrap: wrap;
-  justify-content: center;;
-        /* justify-content: space-between; */
-    }
-
-#products{
-    background: #e5e5e5; 
-}
-#products h1{
-    font-size: 50px;
+.navbar-nav {
+    margin-left: auto;
+  }
+  .navbar .navbar-brand {
+    font-family: "Kaushan Script", cursive !important;
+    color: gold;
     letter-spacing: 2px;
-    padding-top:20vh;
-    padding-bottom: 10vh;;
+    font-size: 1.5rem;
+  }
+  .navbar {
+    background-color: rgba(216, 199, 42, 0.1);
+    box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+    height: 8vh;
+    color: gold;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+      url("../images/giftheader3.jpg");
+  }
+  .dropdown-menu {
+    color: antiquewhite;
+    background-color: transparent;
+  }
+  .dropdown-menu a {
+    color: white;
+    letter-spacing: 1px;
+    background-color: transparent;
+  }
+  .dropdown-menu a:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: aquamarine;
+    letter-spacing: 1px;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+  }
+
+#gift-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#products {
+  background: #ccdbe3;
+  padding-top: 10vh;
+}
+#products h1 {
+  letter-spacing: 2px;
+  padding: 2rem;
+  margin-top: 5vh;
 }
 
 #gift-row {
@@ -70,29 +66,120 @@ font-family: 'Roboto Slab', serif; */
   justify-content: center;
   font-size: 0.5em;
 }
-.card{
-    text-align: center;
-    align-items: center;
-    margin: 1rem;
-    border: none !important;
-    background: #e5e5e5  !important;
-    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
-                inset 4px 4px 10px white;
-    border-radius: 20px;
-    width: 280px;
-    height: 350px;
-    padding: 40px;
-   
+.card {
+  text-align: center;
+  align-items: center;
+  margin: 2rem;
+  border: none !important;
+  background: #e5e5e5 !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  border-radius: 20px;
+  width: 280px;
+  height: 350px;
+  padding: 40px;
 }
 .card img {
   padding-bottom: 20px;
   height: 10rem;
   width: 10rem;
 }
-.card:hover{
-    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
-                inset -10px -10px 10px white;
-    transition: .3s;
+.card:hover {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
+    inset -10px -10px 10px white;
+  transition: 0.3s;
 }
 
+.btn {
+  margin: 3%;
+  background-color: #33334d;
+  width: 150px;
+  border-radius: 20px;
+}
+/* footer */
 
+.footer-info {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  bottom: 0;
+  position: fixed;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: rgb(6, 4, 0);
+}
+.footer-bottom {
+  color: white;
+  font-size: 0.8rem;
+  /* justify-content: center; */
+}
+
+.social-icons ul {
+  /* padding-top: 20px; */
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #33334d; */
+}
+.social-icons ul li .fa {
+  color: white;
+  padding-right: 28px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* breakpoints for sm , md, lg */
+@media (max-width: 576px) {
+  #products h1 {
+    margin-top: 1vh;
+  }
+  .card {
+    width: 200px;
+    height: 260px;
+    padding: 40px;
+    margin: 1rem;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 6rem;
+    width: 6rem;
+  }
+  .social-icons ul li .fa {
+    padding-right: 18px;
+    font-size: 15px;
+  }
+  .footer-bottom {
+    color: white;
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #products h1 {
+    margin-top: 3vh;
+  }
+  .card {
+    width: 230px;
+    height: 275px;
+    padding: 40px;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 7rem;
+    width: 7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    width: 250px;
+    height: 320px;
+    padding: 40px;
+  }
+  .card img {
+    padding-bottom: 20px;
+    height: 9rem;
+    width: 9rem;
+  }
+}
