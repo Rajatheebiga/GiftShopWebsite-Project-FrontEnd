@@ -17,9 +17,9 @@ font-family: 'Roboto Slab', serif; */
     background-color: rgba(216, 199, 42, 0.1);
     box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
     height: 8vh;
-    color: gold;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-      url("../images/giftheader3.jpg");
+    background: #a6b8c2;
+ 
+   
   }
   .dropdown-menu {
     color: antiquewhite;

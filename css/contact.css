@@ -5,10 +5,8 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
 #contact-body {
-  background: #0b163a; 
-  
-  /* background: #0a1948;  */
-  /* background: linear-gradient(rgba(35, 35, 52, 0.9), rgba(28, 17, 17, 0.9)),url("../images/contactus.jpg"); */
+    background: #1b1e29;  
+    
 }
 
 .navbar-nav {
@@ -22,8 +20,9 @@ font-family: 'Roboto Slab', serif; */
 }
 .navbar {
   /* background-color: rgba(216, 199, 42, 0.1);  */
-  background: #0b163a; 
-  box-shadow: 0px 2px 15px rgba(67, 57, 111, 0.6);
+  /* background: #0b163a;  */
+  background: #1b1e29;   
+  box-shadow: 0px 2px 15px rgba(67, 57, 111, 0.6); 
   height: 8vh;
   /* color: gold; */
 
@@ -69,10 +68,12 @@ font-family: 'Roboto Slab', serif; */
 }
 .contact-info h1 {
   text-align: center;
-  color: rgb(216, 164, 206);
+  color: rgb(237, 207, 232);
   font-family: "Kaushan Script", cursive;
   letter-spacing: 3px;
   padding: 1%;
+  /* border-bottom: 1px solid rgb(148, 126, 84); */
+ 
 }
 .contact-info p {
   text-align: center;
@@ -131,14 +132,14 @@ p {
 }
 .footer-info {
   width: 100%;
-  height: 5vh;
+  height: 7vh;
   display: flex;
   bottom: 0;
   position: fixed;
   justify-content: space-between;
   flex-direction: row;
-  background: #09153b; 
-  box-shadow: 2px 2px 10px rgba(67, 57, 111, 0.6);
+  background: #1b1e2c; 
+  box-shadow: 2px 2px 10px rgba(158, 148, 203, 0.6);
   /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.2)) ; */
   /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
 }
