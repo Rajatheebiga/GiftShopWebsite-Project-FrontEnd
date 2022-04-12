@@ -8,6 +8,7 @@ font-family: 'Roboto Slab', serif; */
   /* background:url("../images/aout3.jpg");
     /* linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), */
       background: #1b1e29; 
+      /* background-image: linear-gradient( 358.4deg,  rgba(249,151,119,1) -2.1%, rgba(98,58,162,1) 90% ); */
 }
 
 .navbar-nav {
@@ -101,7 +102,6 @@ font-family: 'Roboto Slab', serif; */
   align-items: center;
   padding: 2rem;
   text-align: center;
-  background: linear-gradient(rgba(132, 137, 173, 0.6),rgba(1, 0, 9, 0.6)) ; 
   background: linear-gradient(rgba(99, 99, 110, 0.7),rgba(44, 47, 84, 0.7)) ; 
 }
 
