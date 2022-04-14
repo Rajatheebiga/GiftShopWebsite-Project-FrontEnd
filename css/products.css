@@ -65,7 +65,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 .card {
   text-align: center;
@@ -131,23 +131,10 @@ body {
 }
 
 /* cart */
-#cart {
-  text-align: center;
-  margin: 2rem;
-  display: flex;
-  margin: 2vh auto;
-  border: none !important;
-  /* background: #cbc5de !important;  */
-  /* box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white; */
-  background: #bba8db;
-  border-radius: 20px;
-  margin-bottom: 30vh;
-}
 #shopping-cart h1 {
   margin: 5vh;
 }
 .list-group {
-  /* margin-top: 5%; */
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -156,11 +143,26 @@ body {
 .item-list {
   display: flex;
   justify-content: space-between;
+  margin: 1px;
+  background: #e5e5e5 !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  /* border-radius: 20px; */
+}
+.item-list p {
+  display: flex;
+  margin: 0px;
+  align-items: center;
 }
 
 .total-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+.total-list p {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0%;
 }
 #gift-row {
   display: flex;
@@ -211,24 +213,68 @@ h3 {
 .cart-bottom {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
-  margin: 4vh;
-  padding-bottom: 10vh;
+  justify-content: space-around;
+  margin-bottom: 30%;
+  margin-top: 5%;
+
+  align-items: center;
 }
 
 .cart-bottom .shoppingButton {
   background-color: #3f2b61;
   width: 12.5rem;
-  margin-right: 150px;
   /* padding-left: 5rem; */
 }
 .cart-bottom .checkoutButton {
   background-color: #14693d;
   width: 6.5rem;
-  margin-left: 280px;
-  /* margin-right: 10rem; */
+  margin-left: 8rem;
 }
 
+/* checkout form */
+
+#checkout {
+  background-color: #293d3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 0.9;
+}
+.checkout-container {
+  margin-top: 5vh;
+  margin: auto 100px;
+  background-color: #94b8b8;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(43, 41, 45);
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 1px rgb(126, 73, 224);
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(43, 41, 45);
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 1px rgb(126, 73, 224);
+}
+
+.checkout-container .btn {
+  margin: 5px auto;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(43, 41, 45);
+  letter-spacing: 1px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px rgb(126, 73, 224);
+}
 /* breakpoints for sm , md, lg */
 @media (max-width: 576px) {
   #products h1 {

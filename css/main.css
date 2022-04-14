@@ -5,19 +5,18 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
 #home-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("../images/giftheader3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url("../images/msg.png");
+  display: flex;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .homepage {
   margin-top: 8vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("../images/giftheader3.jpg");
   width: 100%;
   height: 85vh;
   display: flex;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .navbar-nav {
   margin-left: auto;
@@ -29,12 +28,10 @@ font-family: 'Roboto Slab', serif; */
   font-size: 1.5rem;
 }
 .navbar {
-  background-color: rgba(216, 199, 42, 0.1);
-  box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+  box-shadow: 0px 2px 20px rgba(83, 86, 199, 0.6);
   height: 8vh;
-  color: gold;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("../images/giftheader3.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("../images/msg.png");
 }
 .dropdown-menu {
   color: antiquewhite;
@@ -115,7 +112,10 @@ font-family: 'Roboto Slab', serif; */
 .main-intro h1 {
   color: white;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 3px rgb(203, 206, 11);
+  text-shadow: 2px 2px 3px rgb(115, 119, 164);
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 3px rgb(28, 19, 44);
   font-size: 60px;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -130,17 +130,21 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .footer-info {
-    width: 100%;
-    height: 7vh;
+  width: 100%;
+  height: 7vh;
   display: flex;
   bottom: 0;
   position: fixed;
   align-items: flex-end;
   justify-content: space-between;
   flex-direction: row;
-  background-color: rgb(6, 4, 0);
-  
-  
+  /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)); */
+  box-shadow: 0px 2px 20px rgba(83, 86, 199, 0.6);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6)),
+    url("../images/msg.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .footer-bottom {
   color: white;
@@ -148,9 +152,8 @@ font-family: 'Roboto Slab', serif; */
   /* justify-content: center; */
 }
 
-
 .social-icons ul {
-    /* padding-top: 20px; */
+  /* padding-top: 20px; */
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -166,47 +169,47 @@ font-family: 'Roboto Slab', serif; */
 }
 
 @media (max-width: 576px) {
-    .main-intro h1 {
-      font-size: 2rem;
-    }
-    .gift-img-2 {
-      display: none;
-    }
-    .gift-img-3 {
-      display: none;
-    }
-    .gift-img-4 {
-      display: none;
-    }
-    .right-col {
-      align-content: flex-start;
-    }
+  .main-intro h1 {
+    font-size: 2rem;
   }
+  .gift-img-2 {
+    display: none;
+  }
+  .gift-img-3 {
+    display: none;
+  }
+  .gift-img-4 {
+    display: none;
+  }
+  .right-col {
+    align-content: flex-start;
+  }
+}
 
 @media (min-width: 576px) and (max-width: 768px) {
-    .main-intro h1 {
-        font-size: 2.5rem;
-      }
-      .gift-img-3 {
-        display: none;
-      }
-      .gift-img-4 {
-        display: none;
-      }
+  .main-intro h1 {
+    font-size: 2.5rem;
+  }
+  .gift-img-3 {
+    display: none;
+  }
+  .gift-img-4 {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
-    .main-intro h1 {
-        font-size: 3.5rem;
-      }
-      .gift-img-3 {
-        display: none;
-      }
-      .gift-img-4 {
-        display: none;
-      }
+  .main-intro h1 {
+    font-size: 3.5rem;
+  }
+  .gift-img-3 {
+    display: none;
+  }
+  .gift-img-4 {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
-    .main-intro h1 {
-        font-size: 4rem;
-      }
+  .main-intro h1 {
+    font-size: 4rem;
+  }
 }
