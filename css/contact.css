@@ -9,6 +9,9 @@ font-family: 'Roboto Slab', serif; */
     
 }
 
+
+/* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url("../images/user.jpg"); */
 .navbar-nav {
   margin-left: auto;
 }

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <link rel="stylesheet" href="./css/products.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -60,7 +61,7 @@
             <a class="nav-link" href="./signin.html">Sign In</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#cart">Cart</a>
+            <a class="nav-link" href="./cart.html">Cart</a>
           </li>
         </ul>
 
@@ -75,16 +76,16 @@
       <div class="products-head">
         <h1 class="text-center">Our Products</h1>
       </div>
+
       <section class="gift-catogory">
         <div class="row" id="gift-row">
           <div class="col-lg-4 col-md-4 col-12 card">
             <img src="./images/gits5.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center">Card title</h5>
-              <p class="card-text text-center">$5.00</p>
-              <!-- <button type="button" class="btn btn-primary">Get Started</button> -->
-              <a href="#anniversary-gifts" class="btn btn-primary">Go somewhere</a> 
-            </div>
+              <p class="card-title" id="product1-name">watch</p>
+              <p class="card-text" id="product1-price">10.00</p>
+              <a href="#shopping-cart"><button class="btn btn-primary" id="product1Btn">Add to cart</button></a>
+          </div>
           </div>
           <div class="col-lg-4 col-md-4 col-12 card">
             <img src="./images/gits5.jpg" class="card-img-top" alt="...">
@@ -125,22 +126,6 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gift-back.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gift-back.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
      
       <!-- second row starts of Special gifts -->
   
@@ -159,44 +144,13 @@
             <p class="card-text text-center">$5.00</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gift-back.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gift-back.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+        </div>    
     </div>
       <!--  Anniversary Gifts-->
       <h1 class="text-center" id="anniversary-gifts">Anniversary Gifts</h1>
       <!-- first row starts of Anniversary gifts -->
       <div class="row" id="gift-row">
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+        
         <div class="col-lg-3 col-md-6 col-12 card">
           <img src="./images/gits5.jpg" class="card-img-top" alt="...">
           <div class="card-body">
@@ -232,22 +186,7 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+       
     </div>
       <!-- Special gifts  -->
       <h1 class="text-center" id="special-gifts">Special Gifts</h1>
@@ -269,22 +208,7 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+   
      
       <!-- second row starts of Special gifts -->
   
@@ -304,25 +228,49 @@
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 card">
-          <img src="./images/gits5.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text text-center">$5.00</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+      
     </div>
   </section>
+<!-- cart -->
+<section id="shopping-cart">
+  <h1 class="text-center" id="birthday-gifts">Shopping Cart</h1>
+  <div class="container cart-container" id="cart"> 
+    <div class="row cart-row">
+        <h3>Review Your Cart</h3>
+        <div class="col-md-10 cart-box container">
+            
+            <ul class="list-group" id="items-list-ul">
+                <!-- <li class="list-group-item item-list">
+                    <span>item</span> 
+                    <span>quantity</span> 
+                    <span>price</span> 
+                    <button class="btn btn-danger">delete</button>
+                </li>
+                <li class="list-group-item item-list">
+                    <span>item</span> 
+                    <span>quantity</span> 
+                    <span>price</span> 
+                    <button class="btn btn-danger">delete</button>
+                </li> -->
+            </ul>
+            <ul class="list-group" id="items-list-ul">
+                <li class="list-group-item total-list">
+                    <p>Total</p> 
+                    <span id="totalAmount"></span>
+                    <span></span>
+                </li>
+                </ul>
+        </div>
+        <div class="cart-bottom container">
+            <a href="#products" class="btn btn-primary btn-xs shoppingButton">Continue Shopping</a>
+            <a href="./checkout.html" class="btn btn-success btn-xs checkoutButton">Check Out</a>
+        </div>
+         <!-- check cart using li ends -->
+    </div>
+  </div>
+</section>
 
+<!-- cart ends -->
       <!-- footer section -->
       <footer class="footer-info">
         <!-- <div class="footer-info"> -->

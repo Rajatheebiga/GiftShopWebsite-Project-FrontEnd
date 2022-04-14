@@ -3,47 +3,47 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
-
+body {
+  background: #e5e5e5;
+}
 .navbar-nav {
-    margin-left: auto;
-  }
-  .navbar .navbar-brand {
-    font-family: "Kaushan Script", cursive !important;
-    color: gold;
-    letter-spacing: 2px;
-    font-size: 1.5rem;
-  }
-  .navbar {
-    background-color: rgba(216, 199, 42, 0.1);
-    box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
-    height: 8vh;
-    background: #2a3941;
- 
-   
-  }
-  .dropdown-menu {
-    color: antiquewhite;
-    background-color: transparent;
-  }
-  .dropdown-menu a {
-    color: white;
-    letter-spacing: 1px;
-    background-color: transparent;
-  }
-  .dropdown-menu a:hover {
-    color: white;
-    background-color: transparent;
-  }
-  
-  .navbar-nav .nav-item .nav-link {
-    color: aquamarine;
-    letter-spacing: 1px;
-    padding-left: 1.5rem;
-    font-size: 1rem;
-  }
-  .navbar-nav .nav-item .nav-link:hover {
-    color: white;
-  }
+  margin-left: auto;
+}
+.navbar .navbar-brand {
+  font-family: "Kaushan Script", cursive !important;
+  color: gold;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.navbar {
+  background-color: rgba(216, 199, 42, 0.1);
+  box-shadow: 0px 2px 20px rgba(216, 199, 42, 0.6);
+  height: 8vh;
+  background: #2a3941;
+}
+.dropdown-menu {
+  color: antiquewhite;
+  background-color: transparent;
+}
+.dropdown-menu a {
+  color: white;
+  letter-spacing: 1px;
+  background-color: transparent;
+}
+.dropdown-menu a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: aquamarine;
+  letter-spacing: 1px;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: white;
+}
 
 #gift-row {
   display: flex;
@@ -72,7 +72,7 @@ font-family: 'Roboto Slab', serif; */
   align-items: center;
   margin: 2rem;
   border: none !important;
-  background: #e5e5e5 !important; 
+  background: #e5e5e5 !important;
   box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
   border-radius: 20px;
   width: 280px;
@@ -85,16 +85,15 @@ font-family: 'Roboto Slab', serif; */
   width: 10rem;
 }
 .card:hover {
-  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
-    inset -4px -4px 10px white;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3), inset -4px -4px 10px white;
   transition: 0.3s;
 }
 
 .btn {
-  margin: 3%;
-  background-color: #33334d;
-  width: 150px;
-  border-radius: 20px;
+  /* margin: 3%;
+  background-color: #33334d; */
+  width: 120px;
+  border-radius: 10px;
 }
 /* footer */
 
@@ -129,6 +128,105 @@ font-family: 'Roboto Slab', serif; */
   padding-right: 28px;
   font-size: 25px;
   text-decoration: none;
+}
+
+/* cart */
+#cart {
+  text-align: center;
+  margin: 2rem;
+  display: flex;
+  margin: 2vh auto;
+  border: none !important;
+  /* background: #cbc5de !important;  */
+  /* box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white; */
+  background: #bba8db;
+  border-radius: 20px;
+  margin-bottom: 30vh;
+}
+#shopping-cart h1 {
+  margin: 5vh;
+}
+.list-group {
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-list {
+  display: flex;
+  justify-content: space-between;
+}
+#gift-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  margin: 2rem;
+  border: none !important;
+  background: #e5e5e5 !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  border-radius: 20px;
+  width: 280px;
+  height: 350px;
+  padding: 40px;
+  font-size: 1rem;
+}
+.card img {
+  padding-bottom: 20px;
+  height: 10rem;
+  width: 10rem;
+}
+.card-body {
+  text-align: center;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+}
+.cart-box {
+  display: flex;
+  flex-direction: column;
+}
+.cart-container .btn {
+  background-color: rgb(247, 17, 13);
+  width: 5rem;
+}
+
+h3 {
+  text-align: center;
+  padding: 3%;
+}
+.cart-bottom {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 4vh;
+  padding-bottom: 10vh;
+}
+
+.cart-bottom .shoppingButton {
+  background-color: #3f2b61;
+  width: 12.5rem;
+  margin-right: 150px;
+  /* padding-left: 5rem; */
+}
+.cart-bottom .checkoutButton {
+  background-color: #14693d;
+  width: 6.5rem;
+  margin-left: 280px;
+  /* margin-right: 10rem; */
 }
 
 /* breakpoints for sm , md, lg */
