@@ -48,7 +48,7 @@ font-family: 'Roboto Slab', serif; */
 }
 .navbar-nav .nav-item .nav-link:hover {
   color: white;
-  /* border-bottom: 1px solid aquamarine; */
+  border-bottom: 1px solid aquamarine;
 }
 .payment-success {
   width: 100vw;
@@ -136,6 +136,9 @@ font-family: 'Roboto Slab', serif; */
   .msg-content p {
     font-size: 0.7rem;
   }
+  #navbarNavDropdown{
+    background-color:rgba(25, 22, 51, 0.9);
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -148,10 +151,16 @@ font-family: 'Roboto Slab', serif; */
   .msg-content p {
     font-size: 0.7rem;
   }
+  #navbarNavDropdown{
+    background-color:rgba(25, 22, 51, 0.9);
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .msg-content h2 {
     font-size: 2.8rem;
+  }
+  #navbarNavDropdown{
+    background-color:rgba(25, 22, 51, 0.9);
   }
   .msg-content h3 {
     font-size: 1.1rem;
