@@ -1,4 +1,114 @@
+// product section
 
+// function display(products) {
+//   products.forEach((product) => {
+//       console.log(product)
+//  document.getElementById("gift-row").innerHTML += `<div class="card">
+//  <p class="card-title" id="product1-name">${product.detail}</p>
+//  <p class="card-text" id="product1-price">$ ${product.price}</p>
+//   <img src="./images/${product.photoUri}" class="card-img-top" alt="...">
+//   <a href="#shopping-cart"><button class="btn btn-primary" id="productBtn">Add to cart</button></a>
+//   </div>`;
+//   });
+// }
+
+function displayKids(products) {
+  products.forEach((product) => {
+      console.log(product)
+ document.getElementById("gift-row-kids").innerHTML += `<div class="card">
+ <img src="./images/${product.photoUri}" class="card-img-top" alt="...">
+ <p class="card-title" id="product1-name">${product.detail}</p>
+ <p class="card-text" id="product1-price">$ ${product.price}</p>
+  <a href="#shopping-cart"><button class="btn btn-primary" id="productBtn">Add to cart</button></a>
+  </div>`;
+  });
+}
+
+function displayWomen(products) {
+  products.forEach((product) => {
+      console.log(product)
+ document.getElementById("gift-row-women").innerHTML += `<div class="card">
+ <img src="./images/${product.photoUri}" class="card-img-top" alt="...">
+ <p class="card-title" id="product1-name">${product.detail}</p>
+ <p class="card-text" id="product1-price">$ ${product.price}</p>
+  <a href="#shopping-cart"><button class="btn btn-primary" id="productBtn">Add to cart</button></a>
+  </div>`;
+  });
+}
+function displayMen(products) {
+  products.forEach((product) => {
+      console.log(product)
+ document.getElementById("gift-row-men").innerHTML += `<div class="card">
+ <img src="./images/${product.photoUri}" class="card-img-top" alt="...">
+ <p class="card-title" id="product1-name">${product.detail}</p>
+ <p class="card-text" id="product1-price">$ ${product.price}</p>
+  <a href="#shopping-cart"><button class="btn btn-primary" id="productBtn">Add to cart</button></a>
+  </div>`;
+  });
+}
+
+// function fetchProducts(){
+//   fetch("http://localhost:4005/api/v1/products",{   
+//       method: "GET",
+//       node:'cors',
+//       credentials:'same-origin'
+//      })
+//       .then((response) => response.json())
+//       .then((data) => {
+//         const products = data;
+//         display(products);
+//         console.log("products from server", products);
+//       })
+//       .catch((error) => console.error(error.message));
+// }
+
+function fetchMenProducts(){
+fetch("http://localhost:4005/api/v1/products/men",{   
+    method: "GET",
+    node:'cors',
+    credentials:'same-origin'
+   })
+    .then((response) => response.json())
+    .then((data) => {
+      const products = data;
+      displayMen(products);
+      console.log("products from server", products);
+    })
+    .catch((error) => console.error(error.message));
+}
+
+function fetchWomenProducts(){
+fetch("http://localhost:4005/api/v1/products/women",{   
+    method: "GET",
+    node:'cors',
+    credentials:'same-origin'
+   })
+    .then((response) => response.json())
+    .then((data) => {
+      const products = data;
+      displayWomen(products);
+      console.log("products from server", products);
+    })
+    .catch((error) => console.error(error.message));
+}
+function fetchKidsProducts(){
+fetch("http://localhost:4005/api/v1/products/kids",{   
+    method: "GET",
+    node:'cors',
+    credentials:'same-origin'
+   })
+    .then((response) => response.json())
+    .then((data) => {
+      const products = data;
+      displayKids(products);
+      console.log("products from server", products);
+    })
+    .catch((error) => console.error(error.message));
+}
+
+fetchKidsProducts();
+fetchWomenProducts();
+fetchMenProducts();
 
 // add to cart
 
