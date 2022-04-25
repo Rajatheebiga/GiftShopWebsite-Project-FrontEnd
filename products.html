@@ -96,6 +96,7 @@
         </div>
       </a>
     </section>
+    <hr>
     <!-- product category ends  -->
 
     <!-- kids gift section -->
@@ -106,7 +107,7 @@
       <div class="row" id="gift-row-kids">
       </div>
     </section>
-
+    <hr>
     <!-- women gift section -->
     <section id="women-section">
       <div class="products-head">
@@ -115,7 +116,7 @@
       <div class="row" id="gift-row-women">
       </div>
     </section>
-
+    <hr>
     <!-- men gift section -->
     <section id="men-section">
       <div class="products-head">
@@ -125,13 +126,12 @@
       </div>
     </section>
   </section>
+  <hr>
   <!-- product section ends here -->
   <!-- cart -->
   <section id="shopping-cart">
     <h1 class="text-center">Shopping Cart</h1>
     <div class="container cart-container" id="cart">
-      <div class="row cart-row container">
-        <h3>Review Your Cart</h3>
         <div class="col-md-10 cart-box container">
 
           <ul class="list-group" id="items-list-ul">
@@ -148,18 +148,17 @@
                       <button class="btn btn-danger">delete</button>
                   </li> -->
           </ul>
-          <ul class="list-group" id="items-list-ul">
-            <li class="list-group-item total-list">
+          <ul class="total-group" id="total-list-ul">
+            <li class="total-group-item total-list">
               <p>Total Amount To Pay: <span id="totalAmount"></span></p>
             </li>
           </ul>
         </div>
         <div class="cart-bottom container">
-          <a href="#products-section" class="btn btn-primary btn-xs shoppingButton">Continue Shopping</a>
-          <a href="#checkout" class="btn btn-success btn-xs checkoutButton">Check Out</a>
+          <a  href="#products-section"><button class="btn btn-primary btn-xs shoppingButton" >Continue Shopping</button></a>
+          <a><button class="btn btn-success btn-xs checkoutButton" id="checkOut">Check Out </button></a>
         </div>
         <!-- check cart using li ends -->
-      </div>
     </div>
   </section>
   <!-- cart ends -->
@@ -168,7 +167,7 @@
   <section id="checkout">
     <div class="container checkout-container">
       <h2 class="text-center mt-3 heading">Checkout form</h2>
-      <hr>
+      <!-- <hr> -->
       <form>
         <!-- billing section -->
         <div class="row container billing-address">
