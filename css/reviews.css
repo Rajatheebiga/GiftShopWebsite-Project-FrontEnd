@@ -4,9 +4,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
-#login-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/user2.jpg");
+#reviews-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../images/about9.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,9 +24,9 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .navbar {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/user2.jpg");
-  box-shadow: 0px 2px 15px rgba(204, 197, 232, 0.6);
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../images/about9.jpg");
+  box-shadow: 0px 2px 15px rgba(152, 172, 203, 0.6);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .navbar-nav .nav-item .nav-link {
-  color:#d4dce4 ;
+  color: rgb(168, 194, 219);
   letter-spacing: 1px;
   padding-left: 1.5rem;
 }
@@ -59,95 +59,65 @@ font-family: 'Roboto Slab', serif; */
 section {
   width: 100%;
   height: 100vh;
-  /* background: #1b1e29;  */
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
-    url("../images/main2.jpg"); */
-
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-form {
-  /* background: #8b969b;  */
-  background: linear-gradient(
+
+section h2 {
+  padding: 2vh;
+  letter-spacing: 1.5px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
+}
+.reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 50vh;
+  /* background: linear-gradient(
     rgba(220, 220, 220, 0.2),
     rgba(255, 255, 255, 0.1)
-  );
-  border-radius: 20px;
+  ); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   font-family: "Poppins", sans-serif;
-  height: 55vh;
-  width: 25vw;
-  height: 400px;
-  width: 350px;
   color: aliceblue;
+  margin: 20px auto;
 }
-.login-form {
-  background: linear-gradient(
-    rgba(220, 220, 220, 0.2),
-    rgba(255, 255, 255, 0.1)
-  );
-  border-radius: 20px;
-  font-family: "Poppins", sans-serif;
-  height: 55vh;
-  width: 25vw;
-  height: 400px;
-  width: 350px;
-  color: aliceblue;
-}
-#signUpMsg {
-  font-size: 1rem;
-  color: rgb(93, 245, 103);
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-#signInMsg {
-  font-size: 1rem;
-  color: rgb(232, 65, 65);
-  font-weight: 300;
+
+.carousel-caption h5 {
+  color: rgb(216, 241, 90);
+  /* text-shadow: 1px 1px 1px rgb(164, 109, 45); */
+  padding: 15px;
   letter-spacing: 1px;
 }
 
-.form-label {
-  color: aqua;
-}
-.form-control {
-  background-color: #d5e8f1;
-  border-radius: 0%;
-}
-h4 {
+.carousel-caption p {
+  /* padding: 15px; */
+  margin-bottom: 5vh;
   font-family: "Poppins", sans-serif;
-  color: rgb(169, 174, 89);
-  letter-spacing: 1.5px;
-  text-shadow: 1px 1px 1px rgb(164, 109, 45);
-}
-.btn {
-  margin: 3%;
-  background-color: #82719d;
-  border-color: rgb(15, 75, 105);
-  color: white;
-  font-size: 15px;
-  letter-spacing: 2px;
-  font-weight: 700;
-  width: 120px;
-  border-radius: 20px;
-}
-.checkUser a {
-    color: rgb(169, 174, 89);
+  color: rgb(225, 225, 224);
+  font-size: 17px;
   letter-spacing: 1px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
 }
-.checkUser a:hover {
-    color: rgb(140, 196, 186);
-    border-bottom: 1px solid rgb(107, 92, 155);
-  }
-p{
-    letter-spacing: 0.5px;
+.carousel-item img {
+  margin: 20px auto;
+  /* border-radius: 50px; */
+  width: 70vw;
+  height: 50vh;
+  background: linear-gradient(rgba(47, 57, 103, 0.1), rgba(255, 255, 255, 0.1));
+  border: 1px solid goldenrod;
 }
-.form-head {
-  color: black;
+
+.carousel-caption img {
+  width: 60px;
+  height: 60px;
+  border: none;
 }
+
 /* footer */
 .footer-info {
   width: 100%;
@@ -157,8 +127,8 @@ p{
   position: fixed;
   justify-content: space-between;
   flex-direction: row;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/user2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../images/about9.jpg");
   box-shadow: 0px 2px 15px rgba(204, 197, 232, 0.6);
   background-position: bottom;
   background-size: cover;
@@ -189,12 +159,20 @@ p{
 .social-icons a {
   text-decoration: none;
 }
+/*  */
 
 /* breakpoints for sm , md, lg */
 @media (max-width: 576px) {
-
-  #navbarNavDropdown{
-    background-color:rgba(25, 22, 51, 0.9);
+  #navbarNavDropdown {
+    background-color: rgba(25, 22, 51, 0.9);
+  }
+  .carousel-caption img {
+    display: none;
+  }
+  .carousel-caption p {
+    /* padding: 15px; */
+    margin-bottom: 2vh;
+    font-size: 7px;
   }
 
   .social-icons ul li .fa {
@@ -208,12 +186,20 @@ p{
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  #navbarNavDropdown {
+    background-color: rgba(25, 22, 51, 0.9);
+  }
 
-  #navbarNavDropdown{
-    background-color:rgba(25, 22, 51, 0.9);
+  .carousel-caption img {
+    display: none;
+  }
+  .carousel-caption p {
+    /* padding: 15px; */
+    margin-bottom: 2vh;
+    font-size: 7px;
   }
   .social-icons ul li .fa {
-    padding-right:5vw;
+    padding-right: 5vw;
     font-size: 0.8rem;
   }
   .footer-bottom {

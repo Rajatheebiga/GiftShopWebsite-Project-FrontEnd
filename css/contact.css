@@ -5,30 +5,30 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
 #contact-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../images/contact1.jpg");
-  background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("../images/about10.jpg");
+  background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-    
 }
 .navbar-nav {
   margin-left: auto;
 }
 .navbar .navbar-brand {
   font-family: "Kaushan Script", cursive !important;
-  color: gold;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   letter-spacing: 2px;
   font-size: 1.6rem;
 }
 .navbar {
   box-shadow: 0px 0px 10px rgba(83, 86, 199, 0.6);
   height: 8vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-  url("../images/contact1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/about10.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .dropdown-menu {
   color: antiquewhite;
@@ -45,19 +45,20 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: white;
+  /* color: #b4d2da; */
+  color: #d4dce4;
   letter-spacing: 1px;
   padding-left: 1.5rem;
   font-size: 1rem;
 }
 .navbar-nav .nav-item .nav-link:hover {
   color: white;
-  border-bottom: 1px solid aquamarine;
+  border-bottom: 1px solid rgb(202, 211, 218);
 }
 
 #contact-us {
   margin-top: 8vh;
-  width:100%;
+  width: 100%;
   height: 85vh;
   color: white;
 }
@@ -72,17 +73,18 @@ font-family: 'Roboto Slab', serif; */
 }
 .contact-info h1 {
   text-align: center;
-  color: rgb(237, 207, 232);
+  color: rgb(174, 196, 216);
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   font-family: "Kaushan Script", cursive;
   letter-spacing: 3px;
   padding: 1%;
   /* border-bottom: 1px solid rgb(148, 126, 84); */
- 
 }
 .contact-info p {
   text-align: center;
   letter-spacing: 1.5px;
-  color: rgb(219, 225, 225);
+  color: rgb(181, 212, 228);
   padding: 1%;
   font-family: "PT Sans", sans-serif;
 }
@@ -104,21 +106,30 @@ font-family: 'Roboto Slab', serif; */
   margin: 3%;
   display: flex;
   align-items: center;
-  background-color:rgba(181, 166, 244, 0.2);
+  background-color: rgba(181, 166, 244, 0.2);
   justify-content: center;
-  box-shadow: 0px 5px 5px rgba(218, 212, 230, 0.3), inset 0px 2px 5px rgb(167, 131, 227);
-  border-radius: 2px; 
+  box-shadow: 0px 5px 5px rgba(22, 42, 58, 0.3),
+    inset 0px 2px 5px rgb(23, 60, 107);
+  border-radius: 2px;
+  border-color: black;
+  background: linear-gradient(
+    rgba(108, 157, 188, 0.3),
+    rgba(86, 120, 163, 0.3)
+  );
 }
 
 #contact-row .card:hover {
-  box-shadow: inset 19px 19px 10px rgba(0, 0, 0, 0.3), inset -4px -4px 10px rgb(186, 179, 210);
+  box-shadow: inset 19px 19px 10px rgba(0, 0, 0, 0.3),
+    inset -4px -4px 10px rgb(186, 179, 210);
   transition: 0.3s;
 }
 
 h3,
-i,
 p {
-  color: rgb(239, 237, 244);
+  color: #e8ebef;
+}
+i {
+  color: rgb(100, 172, 171);
   text-decoration: none;
 }
 .card a {
@@ -148,13 +159,13 @@ p {
   position: fixed;
   justify-content: space-between;
   flex-direction: row;
-  background: #1b1e2c; 
+  background: #1b1e2c;
   box-shadow: 2px 2px 10px rgba(158, 148, 203, 0.6);
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-  url("../images/contact1.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/about10.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .footer-bottom {
   display: flex;
@@ -162,16 +173,14 @@ p {
   font-size: 0.9rem;
   align-items: flex-end;
 }
-.footer-bottom p{
+.footer-bottom p {
   color: whitesmoke;
-
 }
 .social-icons {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-left: 2rem;
-
 }
 .social-icons .fa {
   align-items: center;
@@ -186,19 +195,27 @@ p {
 
 /* breakpoints for sm , md, lg */
 @media (max-width: 576px) {
-  #navbarNavDropdown{
-    background-color:rgba(24, 21, 36, 0.9);
+  .contact-info h1 {
+    display: none;
+  }
+  #navbarNavDropdown {
+    background-color: rgba(24, 21, 36, 0.9);
   }
 
-  .contact-info {
-    margin-top: 5vh;
+  #contact-row .card {
+    height: 150px;
+    width: 190px;
+    margin-left: 7%;
+    margin-right: 7%;
   }
-  
-#contact-row .card {
-  height: 170px;
-  width: 170px;
-}
-   
+  #contact-row {
+    padding-bottom:5vh;
+  }
+
+  .contact-info p {
+    display: none;
+  }
+
   .footer-bottom {
     font-size: 0.7rem;
   }
@@ -212,47 +229,49 @@ p {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .contact-info{
+    padding-top: 0%;
+  }
   .contact-info h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0%;
   }
-  #navbarNavDropdown{
-    background-color:rgba(24, 21, 36, 0.9);
-  }
-  .contact-info {
-    margin-top: 5vh;
-  }
-  #contact-row .card {
-    height: 190px;
-    width: 190px;
-  }
-     
   .contact-info p {
     font-size: 1rem;
+    /* padding-top: 50vh; */
+  }
+  #navbarNavDropdown {
+    background-color: rgba(24, 21, 36, 0.9);
+  }
+  #contact-row .card {
+    height: 160px;
+    width: 200px;
+  
   }
   .card h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     /* align-content: space-around; */
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .contact-info h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
-  #navbarNavDropdown{
-    background-color:rgba(24, 21, 36, 0.9);
+  #navbarNavDropdown {
+    background-color: rgba(24, 21, 36, 0.9);
   }
   .contact-info {
-    margin-top: 5vh;
+    margin-top: 7vh;
   }
   #contact-row .card {
-    height: 200px;
+    height: 160px;
     width: 200px;
   }
   .contact-info p {
     font-size: 1.2rem;
   }
   .card h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     /* align-content: space-around; */
   }
 }
@@ -268,4 +287,3 @@ p {
     /* align-content: space-around; */
   }
 }
-

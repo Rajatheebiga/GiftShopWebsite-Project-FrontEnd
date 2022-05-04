@@ -17,7 +17,8 @@ font-family: 'Roboto Slab', serif; */
 }
 .navbar .navbar-brand {
   font-family: "Kaushan Script", cursive !important;
-  color: gold;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
@@ -67,14 +68,14 @@ font-family: 'Roboto Slab', serif; */
   align-items: center;
   width: 100vw;
   height: 40vh;
-  color: white;
+  color: rgb(148, 158, 199);
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
   border-radius: 20px;
 }
 .msg-content h2 {
-  color: white;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   letter-spacing: 3px;
-  text-shadow: 2px 2px 3px rgb(203, 206, 11);
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   text-align: center;

@@ -5,7 +5,7 @@ font-family: 'PT Sans', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
 #home-body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/msg.png");
   display: flex;
   background-position: bottom;
@@ -23,7 +23,8 @@ font-family: 'Roboto Slab', serif; */
 }
 .navbar .navbar-brand {
   font-family: "Kaushan Script", cursive !important;
-  color: gold;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
@@ -50,7 +51,8 @@ font-family: 'Roboto Slab', serif; */
 
 .navbar-nav .nav-item .nav-link {
   color: aquamarine;
-  color: rgb(247, 244, 249);
+  color:#d4dce4 ;
+  /* color: rgb(174, 162, 243); */
   letter-spacing: 1px;
   padding-left: 1.5rem;
   font-size: 1rem;
@@ -111,9 +113,12 @@ font-family: 'Roboto Slab', serif; */
 }
 
 .main-intro h1 {
-  color: white;
+  /* color: white; */
+  color:#d4dce4 ;
+  /* #f54952 */
   letter-spacing: 3px;
   text-shadow: 2px 2px 3px rgb(6, 2, 26);
+  /* text-shadow: 2px 2px px rgb(33, 11, 33); */
   font-size: 60px;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -123,9 +128,11 @@ font-family: 'Roboto Slab', serif; */
 .btn {
   margin: 3%;
   background-color: #2e4a78;
+  /* background-color:#660F56;
+  color:#f54952 ; */
   width: 150px;
   border-radius: 20px;
-  border: 2px rgb(167, 158, 224) solid;
+  border: 2px rgb(154, 136, 201) solid;
 }
 
 .footer-info {

@@ -10,10 +10,8 @@ font-family: 'Roboto Slab', serif; */
   box-sizing: border-box;
 }
 #about-body {
-  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url("../images/about9.jpg"); */
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url("../images/contact1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+  url("../images/handGift.jpg");
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -25,16 +23,17 @@ background-repeat: no-repeat;
 }
 .navbar .navbar-brand {
   font-family: "Kaushan Script", cursive !important;
-  color: gold;
+  color: rgb(169, 174, 89);
+  text-shadow: 1px 1px 1px rgb(164, 109, 45);
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
 .navbar {
-  box-shadow: 0px 2px 15px rgba(204, 197, 232, 0.6); 
+  box-shadow: 0px 0px 10px rgba(213, 206, 228, 0.7);
   height: 8vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url("../images/contact1.jpg");
-background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+  url("../images/handGift.jpg");
+background-position: top;
 background-size: cover;
 background-repeat: no-repeat;
 }
@@ -53,7 +52,8 @@ background-repeat: no-repeat;
 }
 
 .navbar-nav .nav-item .nav-link {
-color:white;
+  /* color: #6faebf; */
+  color:#d4dce4 ;
   letter-spacing: 1px;
   padding-left: 1.5rem;
   font-size: 1rem;
@@ -91,25 +91,25 @@ color:white;
   padding-top: 5vh;
   letter-spacing: 1.5px;
   padding: 1%;
-  color: rgb(245, 229, 234);
+  color: #7daebc;
   font-family: 'PT Sans', sans-serif;
-  text-shadow: 2px 2px 3px rgb(150, 151, 133);
+  text-shadow: 0px 0px 1px rgb(150, 151, 133);
   font-family: "Poppins", sans-serif;
 }
 #about-img {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 #about-img img {
   border-radius: 48%;
   padding: 2%;
-  background-color: rgb(87, 75, 110);
+  background-color: #453169;
+  
 }
 .btn {
   margin: 3%;
-  background-color: #26687a;
+  background-color: #38327b;
   width: 150px;
   border-radius: 20px;
   color: rgb(191, 220, 217);
@@ -123,6 +123,11 @@ color:white;
   align-items: center;
   padding: 2rem;
   text-align: center;
+  background-color: #26687a;
+  background: linear-gradient(
+    rgba(55, 46, 69, 0.4),
+    rgba(55, 42, 66, 0.5)
+  );
   /* background: linear-gradient(rgba(41, 140, 193, 0.8),rgba(255, 255, 255, 0.1)) ;  */
 }
 
@@ -135,10 +140,12 @@ color:white;
   line-height: 30px;
   text-align: center;
   padding: 1%; 
+  color: #c5e4ec;
 }
+
 #about-intro h3 {
 padding-bottom: 2%;
-color: aqua;
+color: #6faebf;
 }
 
 /* footer */
@@ -153,9 +160,9 @@ color: aqua;
   justify-content: space-between;
   flex-direction: row;
   box-shadow: 0px 2px 15px rgba(204, 197, 232, 0.6); 
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url("../images/contact1.jpg");
-background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  url("../images/handGift.jpg");
+background-position: bottom;
 background-size: cover;
 background-repeat: no-repeat;
 
@@ -224,7 +231,9 @@ background-repeat: no-repeat;
 
 @media (min-width: 576px) and (max-width: 768px) {
   .about-info h1 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    margin: 1vh auto;
+    /* display: none; */
   }
   #navbarNavDropdown{
     background-color:rgba(25, 22, 51, 0.9);
@@ -237,8 +246,16 @@ background-repeat: no-repeat;
     width: 230px;
     height: 230px;
   }
+  .btn {
+    margin: 1%;
+  }
   #about-intro p {
     font-size: 0.9rem;
+    padding: 0%;
+    line-height: 25px;
+  }
+  #about-intro h3 {
+    padding: 0%;
   }
   .social-icons ul li .fa {
     padding-right: 18px;
@@ -297,7 +314,6 @@ background-repeat: no-repeat;
   }
   #about-intro p {
     font-size: 1.1rem;
-    color: rgb(233, 236, 240);
   
   }
   #about-img img {
@@ -307,30 +323,3 @@ background-repeat: no-repeat;
 }
 
 
-/* slider */
-
-
-.carousel-item {
-height:50%
-}
-#customer-slide{
-  background-color: #26687a;
-  margin-top: 8vh;
- height:85vh;
- width:100%;
- display:flex;
- align-items: center;
-}
-.carousel-caption h5{
-  color: black;
-  font-size:100px;
-}
-.carousel-caption p{
-  color: black;
-  font-size:100px
-}
-.carousel-item img{
-  border-radius: 20px;
-  width:100px;
-  height:100px;
-}
