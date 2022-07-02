@@ -3,5 +3,6 @@ GiftShop website is a E-Commerce website that allows users to order the gifts in
 Front-end design, I used HTML, CSS and Bootstrap. For the backend I used Node, Express and MongoDb.
 
 
-Home Page![MainPage](https://user-images.githubusercontent.com/99300210/166339325-f0b7b12c-fb22-49e6-9753-2e3f58f0c1c2.png)
->>>>>>> c0bb00935359e289f568e5dd3e0bdf2a3d8482b3
+Home Page![MainPage](https://user-images.githubusercontent.com/99300210/166339325-f0b7b12c-fb22-49e6-9753-2e3f58f0c1c2.png)\\
+
+![2022-04-25 (2)](https://user-images.githubusercontent.com/99300210/176987398-f6dadb5e-7cf8-45e1-aeae-887b29800a5d.png)
