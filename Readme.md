@@ -5,10 +5,13 @@ Front-end design, I used HTML, CSS and Bootstrap. For the backend I used Node, E
 
 Home Page![MainPage](https://user-images.githubusercontent.com/99300210/166339325-f0b7b12c-fb22-49e6-9753-2e3f58f0c1c2.png)\\
 
-AboutUs page ![2022-04-25 (2)](https://user-images.githubusercontent.com/99300210/176987486-22d0dfa9-8f67-4de1-8fbb-6a5297057d63.png)
+AboutUs ![aboutUs](https://user-images.githubusercontent.com/99300210/176987557-9ffa1459-2c94-4828-9d50-610e4205bfab.png)
+
 
 ContactUs ![ContactUs](https://user-images.githubusercontent.com/99300210/176987501-1de75db7-3f7a-46fa-ba0f-908cb6d1cfad.png)
 
 Login ![loginForm](https://user-images.githubusercontent.com/99300210/176987513-4d0e94e0-81c2-4663-a6ed-4ce8bc2a95bc.png)
 
-Menu ![2022-04-25 (2)](https://user-images.githubusercontent.com/99300210/176987521-6d38c31c-bf97-4545-a277-7ed333742d79.png)
+![finalMsg](https://user-images.githubusercontent.com/99300210/176987569-26290852-7cf3-4ec9-b779-fd117c28b322.png)
+
+
