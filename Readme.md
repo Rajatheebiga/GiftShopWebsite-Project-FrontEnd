@@ -12,6 +12,6 @@ ContactUs ![ContactUs](https://user-images.githubusercontent.com/99300210/176987
 
 Login ![loginForm](https://user-images.githubusercontent.com/99300210/176987513-4d0e94e0-81c2-4663-a6ed-4ce8bc2a95bc.png)
 
-![finalMsg](https://user-images.githubusercontent.com/99300210/176987569-26290852-7cf3-4ec9-b779-fd117c28b322.png)
+success msg ![finalMsg](https://user-images.githubusercontent.com/99300210/176987569-26290852-7cf3-4ec9-b779-fd117c28b322.png)
 
 
